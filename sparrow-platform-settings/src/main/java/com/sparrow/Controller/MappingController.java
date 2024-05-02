@@ -16,7 +16,7 @@
 //@RequestMapping("/sparrow")
 //@RestController
 //@CrossOrigin
-//public class MappingController {
+//public class MappingControlle r {
 //	@Autowired
 //private MappingService mappingService;
 //	@GetMapping("/data/{instituteId}")
