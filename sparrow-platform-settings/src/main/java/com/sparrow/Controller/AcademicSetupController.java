@@ -84,7 +84,7 @@ public class AcademicSetupController {
 	}
 
 	@GetMapping("/getAllSessionAcademicYear/{instituteId}")
-	public ResponseEntity<ResponseData<Page<SessionAcademicYear>>> getAllSessionAcademicYear(
+	public ResponseEntity<ResponseData<Page<SessionAcademicYear>>> getAllSessionAcademicYears(
 			@PathVariable("instituteId") Long instituteId, @RequestParam(defaultValue = "0") int page,
 			@RequestParam(defaultValue = "100") int size) {
 
