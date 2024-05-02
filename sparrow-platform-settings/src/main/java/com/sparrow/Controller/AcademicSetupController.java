@@ -68,7 +68,7 @@ public class AcademicSetupController {
 	@Autowired
 	private ValidationService validationService;
 
-	@PostMapping("/addSessionAcademicYear")
+	@PostMapping("/addSessionAcademicYears")
 	public ResponseEntity<ResponseData<SessionAcademicYear>> addSessionAcademicYear(
 			@Valid @RequestBody SessionAcademicYear sessionAcademicYear) {
 		try {
