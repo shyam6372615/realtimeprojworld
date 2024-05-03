@@ -18,7 +18,7 @@
 //@CrossOrigin
 //public class MappingControlle r {
 //	@Autowired
-//private MappingService mappingService;
+//private MappingService m   appingService;
 //	@GetMapping("/data/{instituteId}")
 //    public ResponseEntity<Map<String, Object>> getAllData(@PathVariable("instituteId") Long instituteId) {
 //        Map<String, Object> responseData = new HashMap<>();
